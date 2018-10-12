@@ -1,0 +1,25 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imnikhilupadhyay/nodePractice.git"
+  },
+  "author": "imnikhilupadhyay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imnikhilupadhyay/nodePractice/issues"
+  },
+  "homepage": "https://github.com/imnikhilupadhyay/nodePractice#readme",
+  "dependencies": {
+    "bower": "^1.8.4",
+    "nodemon": "^1.18.4",
+    "swagger": "^0.7.5"
+  }
+}
