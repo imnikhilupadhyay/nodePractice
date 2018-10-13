@@ -1,4 +1,5 @@
 const http = require('http');
+const print = require('../node-practice/frame-print');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, { 
@@ -9,7 +10,7 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(8080, () => {
-    console.log('sever listening..');
+    print('Server listening..');
 });
 
 process.on('exit',()=>{
